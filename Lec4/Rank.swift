@@ -24,9 +24,7 @@ enum Rank: Int{
         case .Jack:
             return "J"
         default:
-            // return "\(rawValue)" //String Interpolation
             return String(rawValue) //More Efficient
-            //anyway we must return a String
         }
     }
     //computed property can only be var:

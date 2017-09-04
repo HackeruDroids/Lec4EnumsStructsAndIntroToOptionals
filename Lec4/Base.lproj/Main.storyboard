@@ -29,6 +29,8 @@
                                 <frame key="frameInset" minX="16" minY="617" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
+                                <state key="selected" title="Selected"/>
+                                <state key="highlighted" title="HighLigted"/>
                                 <connections>
                                     <action selector="dealTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="n5v-5y-w04"/>
                                 </connections>
@@ -59,14 +61,15 @@
                     </view>
                     <connections>
                         <outlet property="bottomLabel" destination="8GR-Ee-WMi" id="PY6-4D-heU"/>
-                        <outlet property="midsLabel" destination="7Z5-VG-B0J" id="Lrh-yY-is7"/>
+                        <outlet property="deal" destination="I1j-Vk-WQA" id="7ab-eP-fjW"/>
+                        <outlet property="midLabel" destination="7Z5-VG-B0J" id="UrC-wF-O7y"/>
                         <outlet property="scoreLabel" destination="gna-MY-Hpe" id="bkR-xG-0ue"/>
                         <outlet property="topLabel" destination="Jw1-l4-YNE" id="Pbm-pD-9w4"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-892" y="60"/>
+            <point key="canvasLocation" x="-1980" y="38"/>
         </scene>
     </scenes>
 </document>
