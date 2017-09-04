@@ -47,18 +47,26 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gna-MY-Hpe">
+                                <frame key="frameInset" minX="317" minY="28" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
                         <outlet property="bottomLabel" destination="8GR-Ee-WMi" id="PY6-4D-heU"/>
                         <outlet property="midsLabel" destination="7Z5-VG-B0J" id="Lrh-yY-is7"/>
+                        <outlet property="scoreLabel" destination="gna-MY-Hpe" id="bkR-xG-0ue"/>
                         <outlet property="topLabel" destination="Jw1-l4-YNE" id="Pbm-pD-9w4"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-559" y="79"/>
+            <point key="canvasLocation" x="-892" y="60"/>
         </scene>
     </scenes>
 </document>
